@@ -1,0 +1,92 @@
+.email{
+    
+        width: 96%;
+        
+        margin-left: 2%;
+        margin-right: 2%;
+    
+}
+
+
+
+.example-full-width
+{
+    width: 100%;
+   
+
+}
+
+
+p{  
+    margin-bottom: 2%;
+    font-family:'Ramabhadra', sans-serif;
+    
+
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+
+button:hover{
+    background-color: #1C1C1C;
+    color: honeydew;
+
+}
+
+#sep-input{
+
+    margin-right: 5px;
+
+}
+#sep-input-i{
+    margin-left: 5px;
+
+
+}
+.input{
+
+    display: flex;
+    flex-direction: row;
+}
+
+@media(max-width:875px){
+
+    p{
+        font-size: 0.8rem;
+    }
+    .input{
+
+        display: flex;
+        flex-direction: column;
+    }
+    #sep-input{
+
+        margin-right: 0;
+    
+    }
+    #sep-input-i{
+        margin-left: 0;
+    
+    
+    }
+}
+
+
+
+
+
+#sep{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+::ng-deep .blue-snackbar{
+
+    background-color: green;
+}
+
+::ng-deep .error-snackbar{
+
+    background-color: red;
+
+
+}

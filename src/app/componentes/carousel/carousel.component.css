@@ -1,0 +1,64 @@
+
+img{
+
+    width: 100%;
+    height: 500px;
+    border: solid #FFD700;
+    }
+p{  margin-top: 2%;
+    margin-bottom: 2%;
+    font-family:'Ramabhadra', sans-serif;
+    margin-left: 2%;
+    
+
+    align-items: center;
+justify-content: center;
+    font-size: 1.5rem;
+}
+.caroussel{
+    margin-left: 2%;
+    margin-right: 2%;
+    width: 96%;
+}
+
+@media(max-width:875px){
+
+    img{
+        height: 300px;
+
+    }
+    p{
+        font-size: 0.8rem;
+    }
+}
+@media(max-width:500px){
+
+    img{
+        height: 250px;
+
+    }
+}
+@media (max-width:410px){
+    img{
+        width: 100%;
+
+    }
+}
+
+@media(max-width:320px){
+
+    img{
+        height: 250px;
+
+    }
+}
+@media(max-width:300px){
+
+    img{
+        height: 250px;
+
+    }
+}
+img{
+    object-fit: cover;
+}

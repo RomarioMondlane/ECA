@@ -1,0 +1,95 @@
+<div class="email">
+    
+  <p><strong>Contacte-nos Por email</strong></p>
+ 
+    <form class="example-form">
+        <div class="input">      
+        <mat-form-field id="sep-input" class="example-full-width" appearance="fill">
+          <mat-label>Email</mat-label>
+          <input type="email" matInput [formControl]="emailFormControl"  placeholder="Ex. farnel@example.com">
+          <mat-error *ngIf="emailFormControl.hasError('email') && !emailFormControl.hasError('required')">
+            Por favor insira um email válido
+          </mat-error>
+          <mat-error *ngIf="emailFormControl.hasError('required')">
+            Email é <strong>obrigatório</strong>
+          </mat-error>
+
+ 
+        </mat-form-field>
+        <mat-form-field id="sep-input-i" class="example-full-width" appearance="fill">
+          <mat-label>Nome</mat-label>
+          <input type="text" matInput [formControl]="nameFormControl"  >
+          <mat-error *ngIf=" !nameFormControl.hasError('required')">
+            Por favor insira um email válido
+          </mat-error>
+          <mat-error *ngIf="nameFormControl.hasError('required')">
+            Nome é <strong>obrigatório</strong>
+          </mat-error>
+
+ 
+        </mat-form-field>
+        
+      
+      
+      </div>
+        
+        <div class="input">
+          <mat-form-field id="sep-input" class="example-full-width" appearance="fill">
+            <mat-label>Assunto</mat-label>
+            <input  matInput [formControl]="SubjectFormControl"  >
+            <mat-error *ngIf="!SubjectFormControl.hasError('required')">
+              Por favor insira o Assunto
+            </mat-error>
+            
+          <mat-error *ngIf="SubjectFormControl.hasError('required')">
+            Campo <strong>obrigatório</strong>
+          </mat-error>
+  
+   
+   
+          </mat-form-field>
+          
+          <mat-form-field id="sep-input-i" class="example-full-width" appearance="fill">
+            <mat-label>Telefone</mat-label>
+            <input type="number" matInput [(ngModel)]="telphone" name="telphone" >
+  
+   
+          </mat-form-field>
+
+
+
+        </div>
+         <mat-form-field class="example-full-width" appearance="fill">
+            <mat-label>Corpo</mat-label>
+            <textarea  type="text"   matInput [formControl]="textFormControl" maxlength="500" >
+            </textarea>
+            <mat-error *ngIf=" !textFormControl.hasError('required')">
+              Por favor insira o corpo da mensagem
+            </mat-error>
+            
+          <mat-error *ngIf="textFormControl.hasError('required')">
+            Campo <strong>obrigatório</strong>
+          </mat-error>
+  
+   
+          </mat-form-field>
+          
+          <div *ngIf="!progress" >
+    
+            <button class="button"  mat-raised-button   color="accent" (click)="send()" > <i class="material-icons">send</i></button>
+               
+          
+           </div> 
+      
+          <div *ngIf="progress" >
+            <mat-progress-bar mode="buffer"  value="indeterminate" >
+             
+            </mat-progress-bar >
+            <button   mat-raised-button [disabled]="true"  color="accent"  > <i class="material-icons">send</i></button>
+            
+        </div> 
+      
+    </form>
+
+  
+</div>

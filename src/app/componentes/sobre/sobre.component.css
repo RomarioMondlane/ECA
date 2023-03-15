@@ -1,0 +1,172 @@
+
+
+.sobre{
+    margin:2% ;
+    
+    display: flex;
+    flex-direction: row;
+    width: 96%;
+    text-align: justify;
+}
+.c{
+    width: 28%;
+    margin-left: 2%;
+    margin-right: 2%; 
+
+}
+i{ 
+    font-size: 1rem;
+}
+
+.arranjo{
+
+
+width: 80%;
+}
+
+h2{
+    font-family: 'Comfortaa', cursive;
+}
+
+p{
+    font-family: 'Comfortaa', cursive;
+}
+
+ .justify{
+
+    text-align:left ;
+    
+}
+ .left{
+
+    text-align:left ;
+    
+    
+}
+@media (max-width:360px){
+   p{
+    line-height: 10px;
+    font-size: 0.5rem;
+
+   }
+   
+i{ 
+    font-size: 0.5rem;
+}
+}
+@keyframes imagem{
+    to{
+        opacity: 0.5;
+    }
+}
+img:hover{
+    animation-name: imagem;
+    animation-duration: 2s;
+}
+img:hover{
+    box-shadow: 0 0 30px 1px 	#FFD700;
+}
+
+@media (max-width:200px){
+    mat-card{
+
+        margin-top: 0.8%;
+    }
+    
+i{ 
+    font-size: 0.5rem;
+}
+}
+
+@media (max-width:350px){
+    p{
+
+        font-size: 0.5rem;
+        line-height: 10px;
+    }
+    .sobre{
+        width: 320px;
+    }
+    
+
+}
+
+@media (max-width:360px){
+    .sobre{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+       
+    }
+    img{
+        width: 350px;
+        max-height: 200px ;
+    }
+    i{ 
+        font-size: 0.5rem;
+    }
+}
+ @media (max-width:400px) {
+    
+    .sobre{
+        display: flex;
+        flex-direction: column;
+        margin-top:2% ;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+    i{ 
+        font-size: 0.5rem;
+    }
+     }
+ @media (max-width:414px){
+    mat-card{
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+    i{ 
+        font-size: 0.5rem;
+    }
+ }
+ 
+ @media (max-width:450px){
+    mat-card{
+        
+        margin-top: 0.8%;
+        width: 80%;
+        margin-right: 0%;
+        margin-right: 0%;
+    
+    }
+    i{ 
+        font-size: 0.5rem;
+    }
+}
+
+ @keyframes cores {
+    from {background-color:	white;
+            
+        
+    }
+    
+  }
+
+
+
+@media (max-width:670px){
+    .sobre{
+        display: flex;
+        flex-direction:column;
+        text-align: justify;
+        
+        width: auto;
+        
+        
+    }
+    .c{
+        width: auto;
+    }
+    i{ 
+        font-size: 0.5rem;
+    }
+}

@@ -1,0 +1,242 @@
+.nav-list{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.app{
+    width: 100%;
+    margin-top:auto;
+    object-fit: cover;
+    padding-bottom: 0;
+    margin-bottom: 0%;
+    -webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 4s; /* Firefox < 16 */
+     -ms-animation: fadein 4s; /* Internet Explorer */
+      -o-animation: fadein 4s; /* Opera < 12.1 */
+         animation: fadein 4s;
+
+}
+@media(max-width:360px){
+    .app{
+        width: 100%;
+        height: 200px;
+    }
+}
+
+@media (max-width:397px){
+    .app{
+        max-width: 390px;
+        max-height: 390px;
+        object-fit: cover;
+    
+    }
+}
+@media(width:399px){
+   .app{
+     
+    width: 100%;
+    opacity: 0.5;
+    object-fit: cover;
+        
+}
+}
+@media (max-width:414px){
+    .app{
+        max-width: 411px;
+        max-height: 411px;
+        object-fit: cover;
+    
+    }
+}
+
+@media (max-width:450px){
+
+    .app{
+
+        height: 300px;
+        object-fit: cover;
+    
+        }
+}
+@media only screen and (max-width: 480px) {
+    img .app {
+      width: 100%;
+      object-fit: cover;
+    
+    }
+  }
+#img{
+
+    height: 50px;
+    max-height: 80%;
+ }
+
+
+@keyframes exemplo {
+    to {opacity: 1;}
+  }
+
+@media (max-width:640px){
+    .nav{
+        display: none;
+    }   
+    .toolbar-title{
+        font-size: .9rem;
+    }
+  
+}
+
+mat-toolbar{
+    padding-right: 5%;
+    padding-left: 5%;
+    background-color: #22006d;
+    position: fixed;
+    
+    overflow: hidden;
+    z-index: 10;
+}
+p{
+    color:	#FFD700;
+    font-family: "Alliance No.1",-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+
+
+
+}
+p:hover{
+
+    color: #F8F8FF
+
+}
+
+.content{
+    z-index: 0;
+
+}
+
+.mail{
+
+    margin: 20px;
+
+
+
+}
+
+
+
+
+
+
+
+@keyframes loading {
+	to {
+		transform: rotate(360deg);
+        opacity: 0.6;
+
+    }
+}
+
+@keyframes loading-reverse {
+	to {
+		transform: rotate(-360deg);
+        opacity: 0.6;
+
+    }
+}
+mat-nav-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-left: auto;
+}
+
+@media(max-width: 420px) {
+    mat-toolbar{
+        font-size: 0.5rem;
+    }
+    .app{
+        width: 100%;
+    }
+
+}
+
+.imgorganization{
+    line-height: 0%;
+    width: 100%;
+ 
+}
+app-servicos{
+    margin-left: 0%;
+    margin-right: 0%;
+}
+a:hover{
+
+    border-bottom: 5px solid 
+    #F8F8FF
+    ;
+}
+/*============================================*/
+
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0;
+        -webkit-animation-fill-mode : both  ;
+    }
+    to   { opacity: 1; }
+}
+/*=================================*/
+#animated  {
+    -webkit-animation-duration : 4s  ;
+    animation-duration : 4 s  ;
+    -webkit-animation-fill-mode : both  ;
+    animation-fill-mode : both  ;
+  }  
+  /* .owl-animated-out - only for current item */ 
+  /* This is very important class. Use z-index if you want move Out item above In item */ 
+  .owl-animated-out {
+    z-index : 1 
+     }
+  /* .owl-animated-in - only for upcoming item
+  /* This is very important class. Use z-index if you want move In item above Out item */ 
+  .owl-animated-in {
+    z-index : 0 
+     }
+  /* .fadeOut is style taken from Animation.css and this is how it looks in owl.carousel.css:  */ 
+  .fadeOut  {
+    -webkit-animation-name : fadeOut  ;
+    animation-name : fadeOut  ;
+  }  
+  @-webkit-keyframes  fadeOut  {
+    0% {
+      opacity : 1   ;
+    }  
+    100% {
+      opacity : 0   ;
+    }  
+  }
+  @keyframes  fadeOut  {
+    0% {
+      opacity : 1   ;
+    }  
+    100% {
+      opacity : 0   ;
+    }  
+  }
