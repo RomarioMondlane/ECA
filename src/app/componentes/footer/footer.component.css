@@ -1,7 +1,7 @@
 .direitos{
 
     display: flex;
-    background-color: #1C1C1C;
+    background-color: #8a55fd;
     
 }
 
@@ -12,7 +12,7 @@
     
     position:static;
     bottom: 0%;
-    background-color: #1C1C1C;
+    background-color: #8a55fd;
     font-size: 0.4rem;
 }
  .especial{
@@ -38,7 +38,7 @@
 
 
 i{ 
-    color:	#FFD700;
+    color:	#0f0f0e;
     font-size: 1rem;
 }
 
@@ -53,7 +53,7 @@ mat-toolbar{
 }
 
 span{
-    color:	#FFD700;
+    color:	#0f0f0e;
     font-family: 'Comfortaa', cursive;
         
 
@@ -142,7 +142,7 @@ mat-toolbar-row{
     width: 50px;
     text-align: center;
     text-decoration: none;
-    color: 	#FFD700;
+    color: 	#0f0f0e;
   }
   .fa:hover {
     opacity: 0.7;

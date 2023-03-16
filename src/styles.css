@@ -6,9 +6,9 @@
       background:white;        /* color of the tracking area */
     }
     body::-webkit-scrollbar-thumb {
-      background-color:	#FFD700;    /* color of the scroll thumb */
+      background-color:	#8a55fd;    /* color of the scroll thumb */
       border-radius: 5px;       /* roundness of the scroll thumb */
-      border: 3px solid 	#FFD700;  /* creates padding around scroll thumb */
+      border: 3px solid 	#8a55fd;  /* creates padding around scroll thumb */
     }
 html, body { height: 100%; 
       width: 100% ;
@@ -30,29 +30,18 @@ html, body { height: 100%;
    
  }
  
- .avatar {
-   background-image: url("assets/oque.png")  ;
-   background-size: cover;
-   background-repeat: no-repeat;
- } 
- 
- .res {
-   background-image: url("assets/res.png")  ;
-   background-size: cover;
-   background-repeat: no-repeat;
- } 
  
  mat-card:hover{
 
       animation-name: cores;
       animation-duration: 2s;
       
-      border-top: 10px solid 	#FFD700;
+      border-top: 10px solid 	#8a55fd;
   
   }
   
   mat-card{
-      border-top: 5px solid #1C1C1C;
+      border-top: 5px solid #8a55fd;
    
   } 
   

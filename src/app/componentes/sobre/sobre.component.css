@@ -64,7 +64,7 @@ img:hover{
     animation-duration: 2s;
 }
 img:hover{
-    box-shadow: 0 0 30px 1px 	#FFD700;
+    box-shadow: 0 0 30px 1px 	#0f0f0e;
 }
 
 @media (max-width:200px){
