@@ -6,7 +6,7 @@
         <div class="input">      
         <mat-form-field id="sep-input" class="example-full-width" appearance="fill">
           <mat-label>Email</mat-label>
-          <input type="email" matInput [formControl]="emailFormControl"  placeholder="Ex. farnel@example.com">
+          <input type="email" matInput [formControl]="emailFormControl"  placeholder="Ex. eca@example.com">
           <mat-error *ngIf="emailFormControl.hasError('email') && !emailFormControl.hasError('required')">
             Por favor insira um email válido
           </mat-error>
